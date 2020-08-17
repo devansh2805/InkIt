@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.abthead {
+  background-color: #f5f1e6;
+  font-family: 'Open sans';
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 50px;
+}
+
+.abthead span {
+  color: #b1afd7;
+  font-family: 'Walter Turncoat', cursive;
+}
+
+.abtdesc {
+  font-family: 'Open sans';
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 20px;
+}
+
+.fromfounder {
+  background-color: #C4FCF0;
+  font-family: 'Open sans';
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.fromfounder div div {
+  color: #b1afd7;
+  font-family: 'Walter Turncoat', cursive;
+}

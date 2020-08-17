@@ -1,0 +1,63 @@
+.navbar-brand {
+  position: relative;
+  left: 10%;
+}
+
+.navbar-nav {
+  position: relative;
+  margin-right: 10%;
+}
+
+.nav-link {
+  color: #596e79;
+  font-family: 'Comic Neue', cursive;
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.nav-link:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+
+.active {
+  color: #71c9ce !important;
+}
+
+.navbar {
+  transition: 2s;
+}
+
+.navbar-custom {
+  background-color: #e3fdfd;
+  opacity: 1;
+}
+
+.up {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.imgup {
+  width: 150px;
+  height: 70px;
+}
+
+.down {
+  min-height: 60px !important;
+  max-height: 60px !important;
+  box-shadow: 0 1px 10px #999;
+}
+
+.imgdown {
+  width: 80px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-collapse {
+    background-color: #e3fdfd;
+    opacity: 1;
+    padding: 2%;
+  }
+}

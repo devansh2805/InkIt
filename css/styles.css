@@ -1,0 +1,83 @@
+
+body {
+  background-color: #e3fdfd;
+}
+
+/* Main Body CSS */
+.text-headings {
+  font-family: 'Cardo', serif;
+  font-weight: 800;
+}
+
+.main-text {
+  font-family: 'Itim', cursive;
+}
+
+.home-background {
+  background: url(../images/home-bg-1.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 500px;
+  width: 100%;
+}
+
+.text-block {
+  text-align: center;
+  font-size: 22px;
+  padding: 2% 2%;
+}
+
+.inkit-card-bg {
+  background: url(../images/home-bg-2.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+.card {
+  max-width: 100%;
+  min-width: 100%;
+  color: #fff;
+  margin: 5% auto;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.km a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.stat-container {
+  text-align: center;
+}
+
+.stat-cont-text {
+  padding: 2%;
+}
+
+.stat-heading {
+  color: #C0C0C0;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.stat-text {
+  font-size: 7rem;
+  color: #0c056d;
+}
+
+/* Main Body CSS Ends */
+@media only screen and (max-width: 900px) {
+  .custom-collapse {
+    background-color: #e3fdfd;
+    opacity: 1;
+    padding: 2%;
+  }
+}

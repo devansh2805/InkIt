@@ -1,0 +1,67 @@
+input {
+  border: 0;
+  background-color: #aec9eb;
+  border-radius: 4px;
+  height: 50px;
+  width: 300px;
+}
+
+select {
+  border: 0;
+  background-color: #aec9eb;
+  border-radius: 4px;
+  height: 50px;
+}
+
+.contact-heading {
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 60px;
+  background-color: #ebedeb;
+}
+
+.form-element {
+  font-size: 30px;
+}
+
+.container-fluid {
+  width: 50%;
+}
+
+.row {
+  margin: 5px auto;
+}
+
+.comment {
+  width: 665px;
+  height: 200px;
+  background-color: #aec9eb;
+}
+
+.inkit-form-btn {
+  background-color: #71c9ce;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .contact-heading {
+    font-size: 30px;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  .comment {
+    width: 100%;
+  }
+}
+@media only screen and (min-width:1000px) and (max-width: 1200px) {
+
+  .container-fluid {
+    width: 100%;
+  }
+
+}

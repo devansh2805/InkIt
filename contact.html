@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <!-- Responive Website Essential Meta Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>InkIt</title>
+  <!-- BootStrap CDN Linking (CSS framework)-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Linking External CSS (Custom CSS)-->
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- Google Fonts Linking -->
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Comic+Neue&family=Itim&family=Patrick+Hand&family=Sacramento&family=Special+Elite&family=Sriracha&display=swap" rel="stylesheet">
+  <!-- Font Awesome CDN Linking (for awesome logos) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+  <!-- BootStrap JS Linking -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Google JQuery Linking -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- Header Includes Navigation Bar (Responsive) -->
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top up navbar-custom" id="navibar">
+      <a class="navbar-brand" href="#">
+        <img src="images/InkItLogo.png" class="imgup" id="logoimg" alt="Ink It Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color: #a6e3e9; font-size:28px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse custom-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <br><br><br><br>
+  <!-- Contact Us Heading -->
+  <div class="contact-heading">CONTACT US</div>
+  <!-- Contact Form -->
+  <div class="container-fluid">
+    <form class="inkit-form" name="submit-to-google-sheet" method="post" enctype="text/plain">
+      <div class="row form-element justify-content-center">
+        <div class="col-lg-6 col-md-6">
+          Parent's Full Name: <br> <input type="text" name="parent-name">
+        </div>
+        <div class="col-lg-6 col-md-6">
+          Child's Full Name: <br> <input type="text" name="child-name">
+        </div>
+      </div>
+      <div class="row form-element">
+        <div class="col-lg-6 col-md-6">
+          Child's Grade & Board: <br>
+          <select id="child-grade" name="child-grade">
+            <option class="dropdown-item" value="first">I</option>
+            <option class="dropdown-item" value="second">II</option>
+            <option class="dropdown-item" value="third">III</option>
+            <option class="dropdown-item" value="fourth">IV</option>
+            <option class="dropdown-item" value="fifth">V</option>
+            <option class="dropdown-item" value="sixth">VI</option>
+            <option class="dropdown-item" value="seventh">VII</option>
+            <option class="dropdown-item" value="eighth">VIII</option>
+            <option class="dropdown-item" value="ninth">IX</option>
+            <option class="dropdown-item" value="tenth">X</option>
+          </select>
+          <select id="child-board" style="margin-left:20px;" name="child-board">
+            <option class="dropdown-item" value="SSC">SSC</option>
+            <option class="dropdown-item" value="CBSE">CBSE</option>
+            <option class="dropdown-item" value="ICSE">ICSE</option>
+            <option class="dropdown-item" value="IGCSE">IGCSE</option>
+            <option class="dropdown-item" value="IB">IB</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          School Name: <br>
+          <input type="text" name="child-school"><br>
+        </div>
+      </div>
+      <div class="row form-element">
+        <div class="col-lg-6 col-md-6">
+          Email Id: <br>
+          <input type="text" name="email"><br>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          Phone Number: <br>
+          <input type="text" name="phone"><br>
+        </div>
+      </div>
+      <div class="row form-element">
+        <div class="col-lg-12">
+          Enquiry/Feedback:<br>
+          <textarea name="text" class="comment" wrap="soft"></textarea>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <input type="submit" value="Submit" class="inkit-form-btn">
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <input type="reset" value="Reset" class="inkit-form-btn">
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 footer-ele">
+          <p style="font-size: 22px">© 2020 Ink It. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 footer-ele">
+          <a href="#" class="social-icon fab fa-facebook-f"></a>
+          <a href="#" class="social-icon fab fa-google"></a>
+          <a href="#" class="social-icon fab fa-linkedin-in"></a>
+          <a href="#" class="social-icon fab fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" charset="utf-8"></script>
+  <script src="javascript/contact.js" charset="utf-8"></script>
+  <script src="javascript/navbar.js" charset="utf-8"></script>
+</body>
+
+</html>
