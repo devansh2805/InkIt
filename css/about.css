@@ -3,17 +3,17 @@ html {
 }
 
 .abthead {
-  background-color: #f5f1e6;
-  font-family: 'Open sans';
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px ;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
-.abthead span {
-  color: #b1afd7;
-  font-family: 'Walter Turncoat', cursive;
-}
 
 .abtdesc {
   font-family: 'Open sans';
@@ -34,4 +34,37 @@ html {
 .fromfounder div div {
   color: #b1afd7;
   font-family: 'Walter Turncoat', cursive;
+}
+
+.ai{
+  font-size: 15px;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+.ai1{
+  border-left: 15px solid lightcoral;
+  border-bottom: 5px solid lightcoral;
+  padding-bottom: 20px;
+  /* margin-right: 300px; */
+}
+.ai2{
+  border-left: 15px solid #fed758;
+  border-bottom: 5px solid #fed758;
+  padding-bottom: 20px;
+}
+.aihead{
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+@media (max-width:800px){
+  .ai1{
+    margin-bottom:50px ;
+  }
+}
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }

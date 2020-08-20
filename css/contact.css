@@ -39,8 +39,9 @@ select {
 }
 
 .inkit-form-btn {
-  background-color: #71c9ce;
-  color: #fff;
+  background-color:transparent;
+  color: #aec9eb;
+  border:2px solid #aec9eb;
   margin-bottom: 20px;
 }
 

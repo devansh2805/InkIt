@@ -4,7 +4,7 @@ $('.navbar-nav .nav-link').click(function() {
 });
 $(window).scroll(
   function() {
-    if ($(document).scrollTop() >= 100) {
+    if ($(document).scrollTop() >= 500) {
       $("#navibar").addClass("down");
       $("#navibar").removeClass("up");
       $("#logoimg").addClass("imgdown");

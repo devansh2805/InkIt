@@ -1,0 +1,98 @@
+.courses-heading{
+    background: url(../images/5815.png);
+    margin-top: 100px;
+    /* padding-top: 200px; */
+    height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    /* background-position: center center; */
+}
+.chead{
+    background-color: rgba(195,79,255,0.3);
+    height: 200px;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.course-list{
+    padding-top: 20px;
+}
+.card{
+    margin: auto;
+    border:none;
+}
+@media (min-width:1000px){
+.card{
+    width:1000px;
+    height:300px;
+}}
+@media (max-width:800px){
+    .card{
+    width:80vw;
+}
+}
+.card-text{
+    margin-top:10px;
+}
+.c1{
+    background-color: rgba(253,132,105,0.3);
+}
+.c2{
+    background-color: rgba(87,140,235,0.3)
+}
+.c3{
+    background-color: rgba(144,223,170,0.3);
+}
+.c4{
+    background-color: rgba(195,79,255,0.3);
+}
+.c5{
+    background-color: rgba(255,255,0,0.3);
+}
+.c6{
+    background-color: rgba(255,86,110,0.3);
+}
+.c7{
+    background-color: rgba(28,228,220,0.3);
+}
+.c8{
+    background-color: rgba(45,183,76,0.3);
+}
+img{
+    height: 300px;
+}
+.card-title{
+    font-family: 'Flavors', cursive;
+    font-size: 50px;
+}
+.myButton {
+	background-color:#4fc1e9;
+	/* border:1px solid ; */
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 10px;
+    text-decoration:none;
+    margin-top: 10px;
+}
+.myButton:hover {
+    opacity: 0.3;
+    text-decoration:none;
+}
+
+.swal-overlay {
+    background-color: rgba(177,175,215, 0.45);
+  }
+  .swal-title {
+    margin: 0px;
+    font-size: 40px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+    font-weight: lighter;
+    font-family: 'Flavors', cursive;
+    margin-bottom: 28px;
+  }

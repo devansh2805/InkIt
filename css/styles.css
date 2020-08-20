@@ -1,6 +1,7 @@
 
 body {
-  background-color: #e3fdfd;
+  /* background-color: #e3fdfd; */
+  background-color: white;
 }
 
 /* Main Body CSS */
@@ -19,14 +20,34 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  height: 500px;
+  height: 90vh;
   width: 100%;
 }
 
 .text-block {
-  text-align: center;
-  font-size: 22px;
+  /* text-align: center; */
   padding: 2% 2%;
+  font-size:20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.text-block .hh{
+  font-size: 30px;
+  font-weight: 800;
+}
+.subheading{
+  color: darkgray;
+  font-size: 20px;
+  font-weight: 200;
+}
+.shtext{
+  color: darkgray;
+  font-size: 20px;
+  font-weight: 200;
+}
+.chsh{
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
 }
 
 .inkit-card-bg {
@@ -72,12 +93,33 @@ body {
   font-size: 7rem;
   color: #0c056d;
 }
-
+.imgsection{
+  height: 30vh;
+  padding-top: 30px;
+  background-attachment: fixed;
+}
+.imgsection div{
+  margin: auto;
+}
+.mb-0 .btn{
+  border-radius: 30px;
+  background-color: #f1cd39;
+  border:none;
+  color: black;
+}
+.btn:hover{
+  opacity: 0.7;
+}
 /* Main Body CSS Ends */
 @media only screen and (max-width: 900px) {
   .custom-collapse {
-    background-color: #e3fdfd;
+    /* background-color: #e3fdfd; */
     opacity: 1;
     padding: 2%;
+  }
+  .home-background{
+    /* background-size: auto; */
+    background-position: center;
+    max-height: 400px;
   }
 }

@@ -11,11 +11,13 @@
 .nav-link {
   color: #596e79;
   font-family: 'Comic Neue', cursive;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 800;
+  margin-right: 30px;
 }
 
 .nav-link:hover {
+  color: #596e79;
   opacity: 0.4;
   transition: 1s;
 }
@@ -29,7 +31,7 @@
 }
 
 .navbar-custom {
-  background-color: #e3fdfd;
+  background-color: white;
   opacity: 1;
 }
 
@@ -54,10 +56,15 @@
   height: 40px;
 }
 
-@media only screen and (max-width: 600px) {
-  .custom-collapse {
+@media (max-width: 900px) {
+  .nav-link{
+    font-size: 10px;
+    margin-right: 2px;
+    background-color:white ;
+  }
+  /* .custom-collapse {
     background-color: #e3fdfd;
     opacity: 1;
     padding: 2%;
-  }
+  } */
 }
