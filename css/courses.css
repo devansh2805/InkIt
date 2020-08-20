@@ -8,6 +8,10 @@
     background-size: contain;
     /* background-position: center center; */
 }
+.card-img{
+width:100%;
+max-height: 100%;
+}
 .chead{
     background-color: rgba(195,79,255,0.3);
     height: 200px;
@@ -26,7 +30,7 @@
 }
 @media (min-width:1000px){
 .card{
-    width:1000px;
+    width:80%;
     height:300px;
 }}
 @media (max-width:800px){
@@ -96,3 +100,28 @@ img{
     font-family: 'Flavors', cursive;
     margin-bottom: 28px;
   }
+.workshop{
+  text-decoration: none;
+  overflow: hidden;
+}
+.workshop:after {
+    /* 'Banner' badge styles */
+  
+    font-size: 1em;
+    content: 'Workshop';
+    position: absolute;
+    top: 25px;
+    right: -35px;
+    width: 10px;
+    line-height: 1.5em;
+    width: 150px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    transform: rotate(45deg);
+    text-align: center;
+    background-size: 5px;
+    background-image: linear-gradient(0, #ff566e 0%, #ff566e 100%);
+    box-shadow: inset -1px 2px 5px rgba(255, 255, 255, 0.4), inset 1px -2px 5px rgba(0, 0, 0, 0.3), 0 1px 5px rgba(0, 0, 0, 0.7);
+  }
+  

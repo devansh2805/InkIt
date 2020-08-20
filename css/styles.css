@@ -35,18 +35,18 @@ body {
   font-weight: 800;
 }
 .subheading{
-  color: darkgray;
+  color: black;
   font-size: 20px;
   font-weight: 200;
 }
 .shtext{
-  color: darkgray;
+  color: black;
   font-size: 20px;
   font-weight: 200;
 }
 .chsh{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 800;
   color: black;
 }
 
@@ -85,12 +85,12 @@ body {
 
 .stat-heading {
   color: #C0C0C0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
 .stat-text {
-  font-size: 7rem;
+  font-size: 5rem;
   color: #0c056d;
 }
 .imgsection{
@@ -117,9 +117,37 @@ body {
     opacity: 1;
     padding: 2%;
   }
+  .imgsection{
+    height:400px;
+  }
+  .ybut{
+    margin-top: 20px;
+  }
+  .home-background {
+    /* margin-top: 200px; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* position: relative; */
+    /* background-position-x: center; */
+    /* background-position-y: top; */
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+  }
+  .marclass{
+    margin-top: 30px;
+  }
+}
+@media (max-width:420px){
   .home-background{
-    /* background-size: auto; */
-    background-position: center;
-    max-height: 400px;
+    background-repeat: no-repeat;
+    background: url(../images/home-bg-phone.png);
+  }
+}
+@media (min-width:420px) and (max-width:900px){
+  .home-background{
+    background-repeat: no-repeat;
+    background: url(../images/home-bg-phone2.png);
   }
 }

@@ -28,6 +28,7 @@
 
 .navbar {
   transition: 2s;
+  margin-bottom: 0;
 }
 
 .navbar-custom {
@@ -62,6 +63,10 @@
     margin-right: 2px;
     background-color:white ;
   }
+  /* .up{
+    min-height: 20px;
+    max-height: 50px;
+  } */
   /* .custom-collapse {
     background-color: #e3fdfd;
     opacity: 1;
