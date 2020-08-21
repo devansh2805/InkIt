@@ -1,23 +1,16 @@
-$(document).on("load", function() {
-  $(".s1").html("0");
-  $(".s2").html("0%");
-  $(".s3").html("0");
-});
+var sflag = true
 
-if($(".s1").is(":visible")) {
-
-  numberChange(".s1", 40, "+");
-}
-if($(".s2").is(":visible")) {
-
-  numberChange(".s2", 60, "%");
-}
-if($(".s3").is(":visible")) {
-  numberChange(".s3", 20, "+");
-}
-$.stellar({
-  horizontalScrolling: false,
-  responsive: true
+$(window).scroll(function() {
+  var hT = $('#scroll-to').offset().top,
+      hH = $('#scroll-to').outerHeight(),
+      wH = $(window).height(),
+      wS = $(this).scrollTop();
+  if (sflag && wS > (hT+hH-wH)){
+    numberChange(".s1", 40, "+");
+    numberChange(".s2", 60, "%");
+    numberChange(".s3", 20, "+");
+    sflag = false;
+  }
 });
 function numberChange(element, value, endString) {
   var ticks = 20, speed = 100, x = 0;

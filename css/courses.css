@@ -1,6 +1,6 @@
 .courses-heading{
-    background: url(../images/5815.png);
-    margin-top: 100px;
+    background: url(../images/course-bg-3.png);
+    margin-top: 80px;
     /* padding-top: 200px; */
     height: 200px;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ max-height: 100%;
     font-size: 60px;
     font-weight: 800;
     text-align: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     color: white;
 }
 .course-list{
@@ -30,12 +30,22 @@ max-height: 100%;
 }
 @media (min-width:1000px){
 .card{
-    width:80%;
+    width:70%;
     height:300px;
 }}
 @media (max-width:800px){
     .card{
     width:80vw;
+}
+.courses-heading{
+    background: url(../images/course-bg-phone.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chead{
+    padding-top: 20px;
+    font-size: 40px;
 }
 }
 .card-text{

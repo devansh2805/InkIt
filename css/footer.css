@@ -1,17 +1,41 @@
 /* Footer CSS */
 .footer {
-  background-color: #3da0d9;
+  /* background-color: #3da0d9; */
   color: #fff;
-  min-height: 100px;
+  /* min-height: 100px; */
   position: absolute;
   width: 100%;
 }
-
+.upper{
+  background-color: #333333;
+  height: 150px;
+  width: 100%;
+  padding-top: 20px;
+}
+.lower{
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  padding-top: 5px;
+}
 .footer-ele {
   text-align: center;
-  padding: 2%;
 }
-
+.ele-up{
+  margin: auto;
+}
+.qlinks{
+  margin-top: 20px;
+  text-decoration: none;
+  color: darkgray;
+}
+.qlinks .ql{
+  text-decoration: none;
+  color: darkgray;
+}
+.qlinks .ql:hover{
+  opacity: 0.4;
+}
 .social-icon {
   padding: 10px;
   font-size: 22px;
@@ -46,6 +70,28 @@
 .fa-instagram {
   background: #125688;
   color: #fff;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.my-float{
+  margin-top:16px;
+  text-decoration: none !important;
+}
+.my-float:hover{
+  color:white !important;
+  opacity: 0.6;
 }
 
 /* Footer CSS Ends */

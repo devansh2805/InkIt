@@ -1,8 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
-
 .abthead {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
@@ -15,26 +13,39 @@ html {
   padding-top: 20px;
 }
 
-
 .abtdesc {
   font-family: 'Open sans';
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
   font-size: 20px;
 }
-
-.fromfounder {
-  background-color: #C4FCF0;
+.pk{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.fromfounder{
+  background-color: rgb(255,234,229);
   font-family: 'Open sans';
+  text-align: center;
+  padding-bottom:50px;
+}
+.foundhead {
   font-size: 40px;
   font-weight: 600;
   color: white;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
-.fromfounder div div {
-  color: #b1afd7;
-  font-family: 'Walter Turncoat', cursive;
+.pdesc{
+  text-align: left;
+}
+.ph{
+  font-size: 30px;
+  font-weight: 500;
+  line-height:1 ;
 }
 
 .ai{
@@ -60,33 +71,27 @@ html {
   padding-bottom: 10px;
 }
 .feedback{
-  
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .fcar{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* .hero {
-  background: -webkit-linear-gradient(top right, #493aae, #43b0f2);
-    background: -moz-linear-gradient(top right, #493aae, #43b0f2);
-    background: -o-linear-gradient(top right, #493aae, #43b0f2);
-    background: linear-gradient(to bottom left, #493aae, #43b0f2); 
-  height: 400px;
-  position: relative;
+.carousel-inner{
+  max-height: 500px;
 }
-
-.hero-curve {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-} */
-
 @media (max-width:800px){
   .ai1{
     margin-bottom:50px ;
+  }
+  .fromfounder{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .pk{
+    margin-bottom: 20px;
   }
 }
 #particles-js {
@@ -174,4 +179,18 @@ html {
 .testidesc{
   text-align: center;
   font-size: 20px;
+}
+@media (max-width: 700px){
+  .testi{
+    font-size: 15px;
+  }
+  .testidesc{
+    font-size: 10px;
+  }
+  .sthead{
+    font-size:25px;
+  }
+  .feedback{
+    padding-top: 30px;
+  }
 }
