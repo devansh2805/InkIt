@@ -1,6 +1,7 @@
+AOS.init();
 function wsb(){
     swal({
-        title: "Wordsmith Basics",
+        title: "Wordsmith Basic",
         text: "This course includes different forms of writing. Every child beholds unique thinking and so this course will help them highlight their ideas and foster creativity into their writing. Course Outcomes: \n • Building basics of how to create ideas \n• Identify forms of writing\n•	Strong P.O.V and opinions\n•	Clarity of grammar\n\nTo know more, please contact us on whatsapp or through the contact form provided. ",
         closeModal: true,
       });

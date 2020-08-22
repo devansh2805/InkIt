@@ -12,7 +12,10 @@ select {
   border-radius: 4px;
   height: 50px;
 }
-
+.hrtag{
+  background-color: #1e3250;
+  width: 100%;
+}
 .contact-heading {
   text-align: center;
   font-family: 'Patrick Hand', cursive;
@@ -62,7 +65,7 @@ select {
   }
 
   .comment {
-    width: 100%;
+    width: 85%;
   }
 }
 @media only screen and (min-width:1000px) and (max-width: 1200px) {

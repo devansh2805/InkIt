@@ -92,6 +92,7 @@
 .my-float:hover{
   color:white !important;
   opacity: 0.6;
+  text-decoration: none !important;
 }
 
 /* Footer CSS Ends */

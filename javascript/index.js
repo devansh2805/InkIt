@@ -1,5 +1,5 @@
 var sflag = true
-
+AOS.init();
 $(window).scroll(function() {
   var hT = $('#scroll-to').offset().top,
       hH = $('#scroll-to').outerHeight(),

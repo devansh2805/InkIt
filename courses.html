@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
   <!-- Responive Website Essential Meta Tag -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>InkIt</title>
+  <title>InkIt Creative Writing Class</title>
   <!-- BootStrap CDN Linking (CSS framework)-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- Linking External CSS (Custom CSS)-->
@@ -21,12 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
   <!-- Font Awesome CDN Linking (for awesome logos) -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-  <!-- BootStrap JS Linking -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <!-- Google JQuery Linking -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,15 +61,29 @@
     </div>
   </div>
   <section class="course-list">
-  
-  <div class="card c2 mb-3">
+    <div class="card c1 mb-3" data-aos="fade-up" data-aos-duration="2000">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/bookworms.png" class="card-img" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Bookworms Club</h5>
+            <div class="badge badge-pill badge-warning">Intermediate level</div>
+            <p class="card-text">This course is especially for the kids to enhance their reading skills and understand story narratives. Essentially, Literature is a part of this course, where we go in great lengths to discuss characters, plot, setting and morals. </p>
+            <div class="myButton" onclick="bw()">VIEW DETAILS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="card c2 mb-3" data-aos="fade-up" data-aos-duration="2000">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="images/Wordsmith.png" class="card-img" alt="...">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Wordsmith (Basics)</h5>
+          <h5 class="card-title">Wordsmith (Basic)</h5>
           <div class="badge badge-pill badge-success">Beginner level</div>
           <p class="card-text">Wordsmith basic is for the kids to develop a mental mind map of key points, brainstorm into correct structure and beautify it with compelling vocabulary.</p>
           <div class="myButton" onclick="wsb()" id="xy">VIEW DETAILS</div>
@@ -82,7 +91,7 @@
       </div>
     </div>
   </div>
-  <div class="card c3 mb-3">
+  <div class="card c3 mb-3" data-aos="fade-up" data-aos-duration="2000">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="images/wordsmith-adv.png" class="card-img" alt="...">
@@ -96,24 +105,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="card c1 mb-3">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="images/bookworms.png" class="card-img" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Bookworms Club</h5>
-          <div class="badge badge-pill badge-warning">Intermediate level</div>
-          <p class="card-text">This course is especially for the kids to enhance their reading skills and understand story narratives. Essentially, Literature is a part of this course, where we go in great lengths to discuss characters, plot, setting and morals. </p>
-          <div class="myButton" onclick="bw()">VIEW DETAILS</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card c4 mb-3">
+  </div>  
+  <div class="card c4 mb-3" data-aos="fade-up" data-aos-duration="2000">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="images/essayist.png" class="card-img" alt="...">
@@ -128,23 +121,7 @@
       </div>
     </div>
   </div>
-  
-  <div class="card c8 workshop mb-3">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="images/eng-express.png" class="card-img" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">English Express</h5>
-          <div class="badge badge-pill badge-warning">Intermediate levels</div>
-          <p class="card-text">This workshop is for English speaking and clear pronunciations. Speaking English well is an important aspect for all speeches and reading. </p>
-          <div class="myButton" onclick="ee()" id="xy">VIEW DETAILS</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="card workshop c7 mb-3">
+  <div class="card workshop c7 mb-3" data-aos="fade-up" data-aos-duration="2000">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="images/twisted-tales.png" class="card-img" alt="...">
@@ -159,7 +136,21 @@
       </div>
     </div>
   </div>
-  
+  <div class="card c8 workshop mb-3" data-aos="fade-up" data-aos-duration="2000">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images/eng-express.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">English Express</h5>
+          <div class="badge badge-pill badge-warning">Intermediate levels</div>
+          <p class="card-text">This workshop is for English speaking and clear pronunciations. Speaking English well is an important aspect for all speeches and reading. </p>
+          <div class="myButton" onclick="ee()" id="xy">VIEW DETAILS</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <footer class="footer">
   <div class="container-fluid upper">
@@ -181,7 +172,14 @@
     </div>
   </div>
 </footer>
+  <!-- BootStrap JS Linking -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Google JQuery Linking -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="javascript/courses.js" charset="utf-8"></script>
   <script src="javascript/navbar.js" charset="utf-8"></script>
 </body>

@@ -138,6 +138,10 @@ body {
   .marclass{
     margin-top: 30px;
   }
+  .text-block{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
 }
 @media (max-width:420px){
   .home-background{
